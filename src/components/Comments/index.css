@@ -1,0 +1,75 @@
+/* Write your CSS here */
+
+.container {
+  min-height: 100vh;
+  background-color: #dee0e3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  min-height: 100vh;
+}
+
+.heading {
+  font-size: 32px;
+  color: #1e293b;
+  font-weight: bold;
+}
+.photo {
+  height: 250px;
+  width: 350px;
+}
+.para {
+  color: #475569;
+  font-size: 18px;
+}
+.inputElement {
+  height: 40px;
+  width: 80%;
+  background-color: none;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: #cbd2d9;
+  outline: none;
+}
+.commentBox {
+  height: 150px;
+  width: 80%;
+  margin-top: 10px;
+  border: 2px solid;
+  border-color: #cbd2d9;
+  outline: none;
+}
+.btn {
+  height: 40px;
+  width: 120px;
+  background-color: #0284c7;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.line {
+  border: 2px solid #94a3b8;
+  width: 100%;
+}
+.number {
+  background-color: #0284c7;
+  height: 35px;
+  width: 35px;
+  color: white;
+}
+.comments {
+  color: #334155;
+}
+.initialContainer {
+  display: flex;
+  align-items: center;
+}
+.unOrderedListContainer {
+  display: flex;
+  flex-direction: column;
+}
